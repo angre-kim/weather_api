@@ -115,11 +115,20 @@ class _LocationScreenState extends State<LocationScreen> {
               Padding(
                 padding: EdgeInsets.only(right: 15.0),
                 child: Text(
-                  '$weatherMessage in $cityName',
+                  '현재 $cityName',
+                  textAlign: TextAlign.center,
+                  style: kMessageTextStyle,
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(right: 15.0),
+                child: Text(
+                  '$weatherMessage',
                   textAlign: TextAlign.right,
                   style: kMessageTextStyle,
                 ),
               ),
+
             ],
           ),
         ),
@@ -127,5 +136,3 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
-
-//ㅅㄷㄴㅅ
