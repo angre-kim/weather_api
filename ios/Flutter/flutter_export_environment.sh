@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=F:\angre01_test\flutter_windows_v1.9.1+hotfix.2-stable\flutter"
-export "FLUTTER_APPLICATION_PATH=F:\Developer\01_angre\Clima-Flutter0212"
+export "FLUTTER_APPLICATION_PATH=F:\Developer\01_angre\weather_api_final"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "SYMROOT=${SOURCE_ROOT}/../build\ios"
